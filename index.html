@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculaator App</title>
+    <link rel="stylesheet" href="style.css " />
+  </head>
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="screen">
+          <br /><br />
+          <input type="text" name="display" id="display" disabled />
+          <input type="text" name="" id="ans" disabled />
+        </div>
+        <hr />
+        <div class="button-container">
+          <div class="btn seven" onclick="append('7')">7</div>
+          <div class="btn eight" onclick="append('8')">8</div>
+          <div class="btn nine" onclick="append('9')">9</div>
+          <div class="btn delete orange" onclick="deleteLast()">Del</div>
+          <div class="btn clear orange" onclick="clearP()">AC</div>
+
+          <div class="btn four" onclick="append('4')">4</div>
+          <div class="btn five" onclick="append('5')">5</div>
+          <div class="btn six" onclick="append('6')">6</div>
+          <div class="btn multiply orange" onclick="append('*')">*</div>
+          <div class="btn division orange" onclick="append('/')">/</div>
+
+          <div class="btn three" onclick="append('1')">1</div>
+          <div class="btn two" onclick="append('2')">2</div>
+          <div class="btn one" onclick="append('3')">3</div>
+          <div class="btn plus orange" onclick="append('+')">+</div>
+          <div class="btn minus orange" onclick="append('-')">-</div>
+
+          <div class="btn dot orange" onclick="append('.')">.</div>
+          <div class="btn zero" onclick="append('0')">0</div>
+          <div class="btn percent orange" onclick="append('%')">%</div>
+          <div class="btn equal orange" onclick="sum()">=</div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

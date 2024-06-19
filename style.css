@@ -1,0 +1,85 @@
+body{
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    justify-content: center;
+    place-items: center;
+}
+.container{
+    background-color:#000000;
+    text-align: center;
+    border-radius: 12px;
+    height: 35rem;
+    width: 27rem;
+}
+input{
+    width: 95%;
+    height: 90px;
+    font-size: 4rem; 
+    color: antiquewhite;
+    background-color:#000000;
+    box-shadow:  5px  #323336;
+    border-radius: 9px;
+    text-align: right;
+    display: grid;
+    border: none;
+    place-items: center;
+    justify-content: center;
+
+    filter: brightness(160%);
+    margin-left: 10px;
+    user-select: all;
+    cursor: pointer;
+}    
+#ans{
+    height: 70px;
+    font-size: 25px;
+    border: none;
+
+}
+.button-container{
+    color:orange;
+    place-items: center;
+    justify-content: center;
+    gap: 4px;
+    display:grid ;
+    grid-template-columns: 86px 86px 86px 86px 86px;
+    grid-template-rows:80px 80px 80px 80px ;
+    font-size: 24px;
+
+}
+.btn{
+    border-radius:20% ;
+    width: 70px;
+    height: 57px;
+    filter: saturate(120%);
+    background-color: #323336;
+    text-align: center;
+}
+.orange{
+    background-color: orange;
+    color: #ffff;
+    padding-top: 14px;
+    text-align: center;
+}
+.equal{
+    width: 160px;
+    text-align: center;
+    margin-left: 80px;
+    padding-top: 15px;
+    background-color: #426107;
+}
+.delete{
+    font-size: 25px;
+}
+.clear{
+    font-size: 25px;
+    background-color: orangered ;
+    color:orange;
+}
+.btn:hover{
+    filter: brightness(200%);
+}
+.btn:active{
+    filter: brightness(200%);
+}
